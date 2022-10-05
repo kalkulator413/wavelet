@@ -9,8 +9,8 @@ class Handler implements URLHandler {
 
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
-            return String.format("Welcome to my amazing search engine 8) Go to /add?s={word}" 
-                + "to add a word and /search?s={str} to return all words that contain str");
+            return String.format("Welcome to my amazing search engine 8)\nGo to /add?s={word}" 
+                + "to add a word\nUse /search?s={str} to return all words that contain str");
         // } else if (url.getPath().equals("/add")) {
             
         //     return String.format("Number incremented!");
